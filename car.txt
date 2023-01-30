@@ -1,0 +1,13 @@
+Cars for sale 
+
+id                  - int       - MEDIUMINT         - PRIMARY_KEY AUTO_INCREMENT
+brand               - string    - VARCHAR(50)       - NOTNULL
+model               - string    - VARCHAR(50)       - NOTNULL
+year                - date      - YEAR              - NOTNULL
+fuel_type           - string    - VARCHAR(20)       - NOTNULL
+color               - string    - VARCHAR(30)       - NULL
+transmission        - string    - VARCHAR(30)       - NOTNULL
+price               - float     - DOUBLE(10,2)      - NOTNULL
+targa               - string    - VARCHAR(7)        - NULL
+mileage             - int       - MEDIUMINT         - NOTNULL
+last_check_up       - date      - DATE              - NOTNULL
